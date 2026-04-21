@@ -1,0 +1,11 @@
+name = "njrotc"
+main = "worker.js"
+compatibility_date = "2025-04-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
+
+[[kv_namespaces]]
+binding = "NJROTC_KV"
+id = "23c306d7fa5c06126a1fee92d484a9e6"
